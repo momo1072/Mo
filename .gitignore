@@ -1,0 +1,25 @@
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Temporäre Dateien
+*.tmp
+*.temp
+
+# PDFs (optional)
+*.pdf
+
+# Bilder (optional)
+*.png
+*.jpg
+*.jpeg
+
+# Build Ordner
+dist/
+build/
