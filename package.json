@@ -1,0 +1,25 @@
+{
+  "name": "school-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/momo1072/mo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/momo1072/mo/issues"
+  },
+  "homepage": "https://github.com/momo1072/mo#readme",
+  "dependencies": {
+    "marked": "^18.0.2",
+    "pptxgenjs": "^4.0.1"
+  }
+}

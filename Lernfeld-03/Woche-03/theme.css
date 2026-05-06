@@ -1,0 +1,30 @@
+/* Klemmbausteine IT-Security Theme */
+
+section {
+  background: linear-gradient(135deg, #0b1f3a, #102a4d);
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 60px;
+}
+
+/* Große Headline */
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+/* Unterzeile */
+h2 {
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+/* Dezenter Footer */
+footer {
+  position: absolute;
+  bottom: 30px;
+  left: 60px;
+  font-size: 14px;
+  opacity: 0.6;
+}

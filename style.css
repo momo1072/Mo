@@ -1,0 +1,436 @@
+/* =========================================================
+   Professionelles style.css für Markdown Preview Enhanced
+   Geeignet für:
+   - Lernzettel
+   - Umschulung / Unterricht
+   - PDF-Export mit Prince
+   - Fragen & Antworten
+   ========================================================= */
+
+/* ---------- Grundlayout ---------- */
+html,
+body {
+  font-family: "Segoe UI", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #1f2937;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.markdown-preview,
+.markdown-preview-view,
+.markdown-body {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 32px 42px 48px 42px;
+  box-sizing: border-box;
+}
+
+/* ---------- PDF Seitenränder ---------- */
+@page {
+  size: A4;
+  margin: 20mm 16mm 20mm 16mm;
+}
+
+/* ---------- Überschriften ---------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Segoe UI", "Arial", sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #111827;
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+  page-break-after: avoid;
+}
+
+h1 {
+  font-size: 30px;
+  color: #0f172a;
+  border-bottom: 3px solid #2563eb;
+  padding-bottom: 10px;
+  margin-top: 0.2em;
+  margin-bottom: 0.9em;
+}
+
+h2 {
+  font-size: 24px;
+  color: #1d4ed8;
+  border-left: 6px solid #60a5fa;
+  padding-left: 12px;
+  margin-top: 1.8em;
+}
+
+h3 {
+  font-size: 20px;
+  color: #0f766e;
+  margin-top: 1.5em;
+}
+
+h4 {
+  font-size: 17px;
+  color: #b45309;
+}
+
+h5 {
+  font-size: 15px;
+  color: #7c3aed;
+}
+
+h6 {
+  font-size: 14px;
+  color: #475569;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ---------- Absätze ---------- */
+p {
+  margin-top: 0.4em;
+  margin-bottom: 0.9em;
+}
+
+/* ---------- Hervorhebungen ---------- */
+strong {
+  font-weight: 700;
+  color: #111827;
+}
+
+em {
+  font-style: italic;
+  color: #374151;
+}
+
+del {
+  color: #9ca3af;
+}
+
+/* ---------- Links ---------- */
+a {
+  color: #2563eb;
+  text-decoration: none;
+  border-bottom: 1px solid #93c5fd;
+}
+
+a:hover {
+  color: #1d4ed8;
+  border-bottom-color: #2563eb;
+}
+
+/* ---------- Listen ---------- */
+ul,
+ol {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.35em;
+}
+
+li > p {
+  margin-bottom: 0.35em;
+}
+
+/* ---------- Blockquotes ---------- */
+blockquote {
+  margin: 1.2em 0;
+  padding: 12px 16px;
+  background: #f8fafc;
+  border-left: 5px solid #60a5fa;
+  color: #334155;
+  border-radius: 6px;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------- Code Inline ---------- */
+code {
+  font-family: "Consolas", "Courier New", monospace;
+  font-size: 0.95em;
+  background: #f3f4f6;
+  color: #b91c1c;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* ---------- Codeblöcke ---------- */
+pre {
+  background: #0f172a;
+  color: #e5e7eb;
+  padding: 16px 18px;
+  border-radius: 10px;
+  overflow-x: auto;
+  line-height: 1.55;
+  margin: 1.2em 0 1.4em 0;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+}
+
+pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* ---------- Tabellen ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.2em 0 1.5em 0;
+  font-size: 14px;
+}
+
+thead {
+  background: #dbeafe;
+}
+
+thead th {
+  color: #1e3a8a;
+  font-weight: 700;
+}
+
+th,
+td {
+  border: 1px solid #cbd5e1;
+  padding: 10px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+tbody tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+/* ---------- Bilder ---------- */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.2em auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  page-break-inside: avoid;
+}
+
+/* ---------- Horizontale Linie ---------- */
+hr {
+  border: none;
+  border-top: 2px solid #cbd5e1;
+  margin: 2em 0;
+}
+
+/* ---------- Aufgaben / Hinweise / Wichtig ---------- */
+.notice,
+.info,
+.warning,
+.success {
+  padding: 14px 16px;
+  border-radius: 8px;
+  margin: 1em 0 1.2em 0;
+  page-break-inside: avoid;
+}
+
+.notice {
+  background: #eff6ff;
+  border-left: 6px solid #2563eb;
+}
+
+.info {
+  background: #ecfeff;
+  border-left: 6px solid #0891b2;
+}
+
+.warning {
+  background: #fff7ed;
+  border-left: 6px solid #ea580c;
+}
+
+.success {
+  background: #ecfdf5;
+  border-left: 6px solid #16a34a;
+}
+
+/* ---------- FAQ / Frage-Antwort Stil ---------- */
+h2 + p strong,
+h3 + p strong {
+  color: #1d4ed8;
+}
+
+/* ---------- Checkboxen ---------- */
+input[type="checkbox"] {
+  transform: scale(1.1);
+  margin-right: 8px;
+}
+
+/* ---------- Seitenumbruch-Helfer ---------- */
+.page-break {
+  page-break-before: always;
+}
+
+.no-break {
+  page-break-inside: avoid;
+}
+
+/* ---------- PDF Kopf- und Fußbereich kompatibler ---------- */
+h1,
+h2,
+h3,
+table,
+img,
+pre,
+blockquote {
+  page-break-inside: avoid;
+}
+
+/* ---------- Spezielle Klassen für Lernunterlagen ---------- */
+.frage {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1d4ed8;
+  margin-top: 1.4em;
+  margin-bottom: 0.4em;
+}
+
+.antwort {
+  background: #f8fafc;
+  border-left: 5px solid #22c55e;
+  padding: 12px 14px;
+  border-radius: 6px;
+  margin-bottom: 1.2em;
+}
+
+.merksatz {
+  background: #fefce8;
+  border-left: 5px solid #eab308;
+  padding: 12px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #713f12;
+  margin: 1em 0 1.2em 0;
+}
+
+.beispiel {
+  background: #f5f3ff;
+  border-left: 5px solid #8b5cf6;
+  padding: 12px 14px;
+  border-radius: 6px;
+  margin: 1em 0 1.2em 0;
+}
+
+/* ---------- Titelseite optional ---------- */
+.titelseite {
+  text-align: center;
+  margin-top: 100px;
+  page-break-after: always;
+}
+
+.titelseite h1 {
+  font-size: 34px;
+  border-bottom: none;
+  padding-bottom: 0;
+  color: #0f172a;
+}
+
+.titelseite p {
+  font-size: 18px;
+  color: #475569;
+}
+
+/* ---------- Kleinere Hilfsklassen ---------- */
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.small {
+  font-size: 13px;
+  color: #64748b;
+}
+
+.big {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.highlight {
+  background: linear-gradient(transparent 60%, #fde68a 60%);
+  font-weight: 600;
+}
+
+/* ---------- Druckoptimierung ---------- */
+@media print {
+  body {
+    background: #ffffff;
+  }
+
+  .markdown-preview,
+  .markdown-preview-view,
+  .markdown-body {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  a {
+    color: #1d4ed8;
+    text-decoration: none;
+  }
+
+  pre {
+    box-shadow: none;
+  }
+
+  img {
+    box-shadow: none;
+  }
+  body {
+    background-color: red !important;
+  }
+  body {
+    background: red !important;
+  }
+}
+body {
+  background: #1e1e1e;
+  color: white;
+}
+
+h1 {
+  color: #00ff88;
+}
+body {
+  height: 100vh;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  background: cyan;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0% { left: 50px; }
+  50% { left: 300px; }
+  100% { left: 50px; }
+}

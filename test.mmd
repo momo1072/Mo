@@ -1,0 +1,54 @@
+flowchart TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+
+    flowchart LR
+    A[Christmas] -->/Get money/ B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+
+    flowchart RL
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+
+    flowchart BT
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+
+    flowchart TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop] 
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+
+graph TD
+    A[Homeoffice Laptop / Tablet] -->/VPN| B[Firewall / VPN-Gateway]
+    C[Smartphone BYOD] -->|VPN + MDM| B
+
+    B --> D[Unternehmensnetz]
+
+    D --> E[VDI-Server / Virtuelle Desktops]
+    E --> F[File / ERP / DMS Server]
+
+    G[Thin Clients Verwaltung /Lager] --> Egraph TD
+    A[Homeoffice Laptop / Tablet] -->/VPN| B[Firewall / VPN-Gateway]
+    C[Smartphone BYOD] -->|VPN + MDM| B
+
+    B --> D[Unternehmensnetz]
+
+    D --> E[VDI-Server / Virtuelle Desktops]
+    E --> F[File / ERP / DMS Server]
+
+    G[Thin Clients Verwaltung /Lager] --> E
