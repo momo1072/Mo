@@ -12,10 +12,10 @@ Thumbs.db
 *.tmp
 *.temp
 
-# PDFs (optional)
+# PDFs
 *.pdf
 
-# Bilder (optional)
+# Bilder
 *.png
 *.jpg
 *.jpeg
@@ -23,3 +23,9 @@ Thumbs.db
 # Build Ordner
 dist/
 build/
+
+# Node
+node_modules/
+
+# Crossnote
+.crossnote/
