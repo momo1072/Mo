@@ -1,3 +1,59 @@
+# Fachinformatiker Systemintegration – Lernmaterialien
+
+Dieses Repository enthält meine gesammelten Lernnotizen und Unterlagen für die Umschulung zum **Fachinformatiker Systemintegration (IHK)**.
+
+Die Inhalte werden laufend ergänzt, da die Module nicht in numerischer Reihenfolge unterrichtet werden.
+
+---
+
+## Struktur
+
+| Lernfeld | Thema | Status |
+|----------|-------|--------|
+| [Lernfeld-01](Lernfeld-01/README.md) | IT-Systeme – Hardware, Zahlensysteme, OSI-Modell | aktiv |
+| [Lernfeld-02](Lernfeld-02/README.md) | Arbeitsplätze einrichten, Wirtschaft & Recht | aktiv |
+| [Lernfeld-03](Lernfeld-03/README.md) | Netzwerke, RAID, Cloud, Safety vs. Security | aktiv |
+| Lernfeld-04 | Schutzbedarfsanalyse | noch nicht belegt |
+| Lernfeld-05 | Software zur Verwaltung | noch nicht belegt |
+| Lernfeld-06 | Serviceanfragen bearbeiten | noch nicht belegt |
+| Lernfeld-07 | Cyber-Sicherheit | noch nicht belegt |
+| Lernfeld-08 | Netzwerke und Dienste | noch nicht belegt |
+| [Lernfeld-09](Lernfeld-09/README.md) | Netzwerksicherheit, Kryptographie, Virtualisierung | aktiv |
+
+---
+
+## Prüfungsvorbereitung
+
+Der Ordner [Prüfungsvorbereitung/](Prüfungsvorbereitung/) enthält gesammelte Prüfungsfragen und Tests aus dem Unterricht.
+
+---
+
+## Tools
+
+- `tools/build-pptx.js` – Konvertiert Markdown-Notizen automatisch in PowerPoint-Präsentationen
+
+```bash
+node tools/build-pptx.js <pfad-zur-markdown-datei>
+```
+
+---
+
+## Prüfungsrelevante Schwerpunkte
+
+- OSI-Modell & TCP/IP-Modell
+- Hardware-Komponenten (CPU, RAM, Festplatten, BIOS/UEFI)
+- Zahlensysteme (Binär, Dezimal, Hex)
+- RAID-Systeme & Datenspeicher
+- Cloud-Strategien
+- Netzwerksicherheit (CIA-Triade, Firewalls, ACLs, VPN)
+- Kryptographie (symmetrisch / asymmetrisch / hybrid)
+- Virtualisierung & Hypervisor
+- Safety vs. Security
+- Hochverfügbarkeit & Redundanz
+- Wirtschaft & Recht (TCO, ROI, Vertragsarten, DSGVO)
+
+---
+
 # 🐧 Linux Cheatsheet — Terminal Grundbefehle
 
 > Spickzettel für die Linux-Kommandozeile  

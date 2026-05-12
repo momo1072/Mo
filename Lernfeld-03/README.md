@@ -1,136 +1,42 @@
-# Folie 1 – Stromversorgung: Bedeutung in der IT (optimiert)
-Bedeutung der Stromversorgung in der IT
+# Lernfeld 03 – Netzwerke und IT-Infrastruktur
 
-Stromversorgung ist die Grundlage aller IT‑Systeme
-Ohne Strom → keine Verfügbarkeit
+## Thema
+Netzwerkplanung, RAID, Cloud-Strategie, Stromversorgung, Safety vs. Security
 
-Stromausfall kann führen zu:
+---
 
-Datenverlust
-Dienstausfällen
-Produktions‑ und Betriebsstillstand
+## Wochenübersicht
 
-# Merksatz (sehr IHK‑tauglich):
+| Woche | Datum | Themen |
+|-------|-------|--------|
+| [Woche-01](Woche-01/) | 15.–17.04.2026 | Stromversorgung, Patchkabel-Fehleranalyse, Babbling Idiot, Client einbinden |
+| [Woche-02](Woche-02/) | 20.–24.04.2026 | Netzwerkplanung, TCP/IP-Modell, RAID, Cloud-Strategie, Architekturbüro-Auftrag |
+| [Woche-03](Woche-03/) | 27.–29.04.2026 | Safety vs. Security, Blockchain, Windows Task Manager |
 
-Eine sichere und korrekt dimensionierte Stromversorgung ist essenziell für stabile IT‑Systeme.
+---
 
-# Technischer Zusatz (gut für Fachgespräch):
+## Materialien
 
-Der elektrische Widerstand hängt von Leitungslänge, Querschnitt, Material und Temperatur ab.
+| Ordner / Datei | Inhalt |
+|----------------|--------|
+| [IPv4_Adressierung/](IPv4_Adressierung/) | Private IPs, Subnetting Grundlagen & Workshop, Oktett-Vorlage |
+| [Netzwerkmedien/](Netzwerkmedien/) | Twisted Pair (CAT6, UTP/STP), LWL, Richtfunk – Bilder & PDF |
+| Patchplan & Kabelwahl.xlsx | Excel-Vorlage für Patchplanung |
+| [Prüfungsszenarien.md](Prüfungsszenarien.md) | IHK-typische Szenarien mit Musterantworten |
 
-# Verbesserung ggü. Original:
+---
 
-Kürzere Sätze
-Keine „…“
-Klare Trennung Ursache → Folge
+## Prüfungsrelevante Themen
 
-![kjhgfd](https://osi.rosenberger.com/fileadmin/_processed_/e/2/csm_Strukturierte-Verkabelung-Freigegeben_6c13925a0c.jpg)
+- RAID-Level (0, 1, 5, 6, 10) und Ausfallsicherheit
+- Stromversorgung: USV, Netzersatzanlage, Gefahren
+- Cloud-Modelle: Public, Private, Hybrid
+- Safety vs. Security (Definition + Unterschied)
+- TCP/IP-Modell vs. OSI-Modell
+- IPv4-Adressierung und Subnetting
+- Netzwerkkabeltypen (CAT, STP, UTP, LWL)
 
+---
 
-# Folie 2 – Arbeitsphase (didaktisch klarer)
-Arbeitsphase: Stromversorgung
-Aufgabenstellung
-
-Recherchiere zum Thema Stromversorgung
-Identifiziere potenzielle Gefahrenpunkte
-
-Anschließend
-
-Vorstellung der Ergebnisse
-Gemeinsame Diskussion
-
-Arbeitsform
-
-Einzelarbeit
-Materialien: Internet
-Zeit: 60 Minuten
-
-# Verbesserung:
-
-Strukturierter
-Weniger Text
-Einheitliche Aufzählung
-
-
-# Folie 3 – Zusammenfassung (fachlich sehr wichtig)
-Netzersatzanlagen (Notstrom)
-
-Starten automatisch bei Stromausfall
-Einsatz z. B. in:
-
-Rechenzentren
-Krankenhäusern
-Telekommunikation
-
-
-Wichtig für hochverfügbare IT‑Infrastrukturen
-
-
-Gefahren durch elektrischen Strom
-
-Strom ist unsichtbar und lebensgefährlich
-Der menschliche Körper leitet Strom
-Feuchte oder verletzte Haut → geringer Widerstand
-Ohmsches Gesetz:
-
-Geringer Widerstand → höhere Stromstärke
-
-
-Bereits kleine Ströme können tödlich sein
-
-# Prüfungssatz:
-
-Nicht die Spannung, sondern die Stromstärke ist für den Menschen gefährlich.
-
-
-# Gesamtfazit (ehrlich)
-# Inhalt: fachlich richtig
-# Niveau: GFN / IHK‑geeignet
-# Mit kleinen Anpassungen sehr präsentationsreif
-
-# Willst du als Nächstes:
-- 1. Sprechernotizen (Stichpunkte zum Vortragen)?
-- 2. Gefahrenpunkte-Liste (z. B. Überlastung, falscher Querschnitt, fehlende USV)?
-- 3. IHK‑typische Prüfungsfragen mit Antworten zu Stromversorgung?
-Sag mir eine Nummer, dann mache ich es direkt.
-Geben Sie Ihr Feedback zu BizChat ab.You said: Erstelle die Gefahrenpunkte-ListeCopilot said: CopilotHier ist eine klare, präsentations‑ und IHK‑taugliche Gefahrenpunkte‑Liste zur Stromversorgung in der IT
-(kurz, sachlich, gut für Folie oder Handout):
-
-
-
-# Gefahrenpunkte der Stromversorgung
-Technische Gefahren
-
-| Stromausfall → Datenverlust, Systemstillstand  |
-|-
-| Spannungsschwankungen → Hardware‑Schäden  |
-| Überlastung von Steckdosen/Leitungen → Brandgefahr  |
-| Falsch dimensionierte Kabel (zu geringer Querschnitt) → Überhitzung  |
-| Fehlende Erdung → Stromschlag, Geräteschäden  |
-| Defekte Netzteile oder Kabel → Kurzschluss  |
-
-
-Organisatorische / Infrastruktur-Gefahren
-
-Keine oder falsch ausgelegte USV
-Fehlende Netzersatzanlage (Notstrom)
-Keine redundante Stromversorgung
-Unzureichende Wartung elektrischer Anlagen
-Unstrukturierte Verkabelung (Kabelsalat)
-
-
-
-
-
-
-|   Gefahren für Menschen     |                       |
-|---------------------------|----------------------|
-|  Elektrischer Strom ist unsichtbar |
-|   Körper leitet Strom     |
-|   Feuchte oder verletzte Haut → geringerer Widerstand   |
-|  Schon kleine Ströme können lebensgefährlich sein    |
-|   Arbeiten unter Spannung (fehlende Sicherheitsmaßnahmen)    |
-
-
-
-
+## Ziel
+Netzwerke planen, Infrastruktur bewerten und Ausfallsicherheit sicherstellen können.
